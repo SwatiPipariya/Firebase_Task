@@ -1,0 +1,48 @@
+.MainContent {
+  padding: 20px;
+  background-color: #f1f1f1;
+  flex: 1;
+}
+
+.post {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+}
+
+.post-header img {
+  border-radius: 4%;
+  margin-right: 10px;
+}
+
+.post-footer {
+  display: flex;
+  justify-content: start;
+  margin-top: 10px;
+}
+
+.post-footer span {
+  cursor: pointer;
+  padding: 0px 20px 0px 20px;
+}
+
+.iwpqk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pwljk {
+  font-size: medium;
+  color: #101010;
+  text-align: left;
+  font: normal normal 600 20px/24px Gilroy;
+  padding-left: 7%;
+}

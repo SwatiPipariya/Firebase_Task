@@ -1,0 +1,57 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 18px;
+  background-color: #fff;
+  border-bottom: 1px solid #e7e7e7;
+  border-radius: 11px;
+  }
+  
+  .Navbar input {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+  }
+  
+  /* .filter-btn, .seller-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+   */
+  .filter-btn {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .qmlw {
+    letter-spacing: 0px;
+    color: #303030;
+    opacity: 1;
+    padding-left: 5px;
+    cursor: pointer;
+  }
+
+  .oqmsk {
+    padding: 0px 30px 0px 20px;
+  }
+  
+  .whqpc {
+    border: none;
+    outline: none;
+  }
+
+  .qlxsm {
+    width: 25px;
+    height: 25px;
+  }
+
+  .lamcw {
+    display: flex;
+    align-items: center;
+  }

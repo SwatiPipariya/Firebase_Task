@@ -1,0 +1,66 @@
+.RightSidebar {
+    width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+    overflow-y: scroll;
+    margin-left: 10px;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .tabs button {
+    padding: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .tabs button.active {
+    font-weight: bold;
+    border-bottom: 2px solid #50b3a2;
+  }
+  
+  .recommendations .recommendation {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .recommendations .recommendation img {
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  
+
+  .seller-btn {
+    background: #88C2BB;
+    color: white;
+    width: 250px;
+    border: none;
+    height: 80px;
+    border-radius: 10px;
+
+  }
+
+  .recommendation {
+    position: relative; /* Ensure positioning context for absolute positioning */
+}
+  
+  .ponb {
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 34%;
+    left: 7%;
+  }
+
+  .langm {
+    padding: 5px;
+  }
